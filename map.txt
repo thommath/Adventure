@@ -1,0 +1,26 @@
+new Start
+desc You are in a forest
+items welcome-mat
+north Forest
+south Forest2
+east west-house
+
+new Forest
+desc You are in a forest
+weapon Sword 5
+items leaves stick a-pile-of-stones a b c d e f g
+south Start
+north Forest2
+east west-house
+
+new Forest2
+desc You are in a forest
+items grass
+south Forest
+north Start
+east west-house
+
+new west-house
+desc You are not a forest
+armor Iron 5
+west Start
